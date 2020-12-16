@@ -1,0 +1,9 @@
+version: "2"
+services:
+  payment:
+    image: "pharmacollect/payment:latest"
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "8084:8080"
+    command: "node app.js"

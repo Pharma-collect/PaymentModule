@@ -17,5 +17,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "stripe": "^8.129.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
